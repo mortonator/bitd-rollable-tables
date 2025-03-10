@@ -1,0 +1,43 @@
+{
+  "id": "bitd-rollable-tables",
+  "title": "BitD Rollable Tables",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "description": "A collection of rollable tables for running Blades In The Dark, with a macro for making use of the tables easier.",
+  "authors": [
+    {
+      "name": "Mortonator",
+      "discord": "mort0303",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "bitd-rollable-tables",
+      "label": "Bitd Rollable Tables",
+      "path": "packs/bitd-rollable-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "blades-in-the-dark",
+      "flags": {}
+    },
+    {
+      "name": "bitd-rollable-tables-macro",
+      "label": "Bitd Rollable Tables Macro",
+      "path": "packs/bitd-rollable-tables-macro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "blades-in-the-dark",
+      "flags": {}
+    }
+  ]
+}
