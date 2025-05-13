@@ -1,5 +1,7 @@
-2025/03/10-15:11:05.612 d3c Delete type=3 #1
-2025/03/10-15:14:12.702 20c4 Level-0 table #5: started
-2025/03/10-15:14:12.734 20c4 Level-0 table #5: 2048 bytes OK
-2025/03/10-15:14:12.759 20c4 Delete type=0 #3
-2025/03/10-15:14:12.848 20c4 Manual compaction at level-0 from '!macros!NLhKyxWTpVcec7eL' @ 72057594037927935 : 1 .. '!macros!NLhKyxWTpVcec7eL' @ 0 : 0; will stop at (end)
+2025/05/13-13:38:09.336 11f4 Recovering log #24
+2025/05/13-13:38:09.403 11f4 Delete type=0 #24
+2025/05/13-13:38:09.404 11f4 Delete type=3 #22
+2025/05/13-16:06:28.012 b38 Level-0 table #30: started
+2025/05/13-16:06:28.034 b38 Level-0 table #30: 6045 bytes OK
+2025/05/13-16:06:28.068 b38 Delete type=0 #28
+2025/05/13-16:06:28.168 b38 Manual compaction at level-0 from '!macros!jGRBhvtnhC8bVLbF' @ 72057594037927935 : 1 .. '!macros!jGRBhvtnhC8bVLbF' @ 0 : 0; will stop at (end)

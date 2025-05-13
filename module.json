@@ -1,12 +1,12 @@
 {
   "id": "bitd-rollable-tables",
   "title": "BitD Rollable Tables",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13.339"
   },
-  "description": "A collection of rollable tables for running Blades In The Dark, with a macro for making use of the tables easier.",
+  "description": "<p>A collection of rollable tables for running Blades In The Dark, with a macro for making use of the tables easier.</p>",
   "authors": [
     {
       "name": "Mortonator",
@@ -20,24 +20,23 @@
       "label": "Bitd Rollable Tables",
       "path": "packs/bitd-rollable-tables",
       "type": "RollTable",
+      "system": "blades-in-the-dark",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "blades-in-the-dark",
-      "flags": {}
+      }
     },
     {
       "name": "bitd-rollable-tables-macro",
       "label": "Bitd Rollable Tables Macro",
       "path": "packs/bitd-rollable-tables-macro",
       "type": "Macro",
+      "system": "blades-in-the-dark",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "blades-in-the-dark",
-      "flags": {}
+      }
     }
-  ]
+  ],
+  "url": "https://github.com/mortonator/bitd-rollable-tables/tree/main"
 }
